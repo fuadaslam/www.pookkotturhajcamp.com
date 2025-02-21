@@ -20,10 +20,11 @@ html {
   justify-items: center;
   align-items: center;
   flex-direction: row;
-  margin-left: 30px;
+  margin-left: 1%;
   display: flex;
   height: 50px;
   width: 100%;
+  margin-right: 50px;
 }
 
 
@@ -168,10 +169,17 @@ html {
 
 /* Adjust caption positioning */
 .carousel-caption {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 20px;
+  left: 10%; /* Adjust as needed */
+  text-align: left;
+}
+
+.carousel-caption h1 {
+  font-family: 'Poppins', sans-serif; /* Use a clean, readable font */
+  font-weight: bold;
+  font-size: 2rem; /* Adjust size to match screenshot */
+  background: rgba(0, 0, 0, 0.5); /* Optional background for readability */
+  padding: 10px;
+  display: inline-block;
 }
 
 /* For smaller screens */
